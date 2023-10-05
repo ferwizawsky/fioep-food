@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inputan{
+    @apply mb-2;
+}
+.inputan span {
+    @apply font-semibold text-xs;
+}
+.inputan input {
+    @apply w-full border border-gray-200 rounded-lg py-1.5 px-5 focus:outline-none focus:border-primary ;
+}
+.inputan textarea {
+    @apply w-full border border-gray-200 rounded-lg py-1.5 px-5 min-h-[100px] focus:outline-none focus:border-primary ;
+}
+.inputan select {
+    @apply w-full border border-gray-200 rounded-lg py-1.5 px-5 focus:outline-none focus:border-primary ;
+} 
+
+.landing-navbar {
+    @apply flex bg-white/20 backdrop-blur-sm justify-between items-center px-5 lg:px-7 py-4 text-xl fixed top-0 left-0 w-full z-30;
+}
+.landing-navbar ul{
+    @apply flex items-center lg:mr-20 text-sm;
+}
+.landing-navbar ul li {
+    @apply px-2 md:mx-2 ;
+}
+
+.u-top-nav li {
+    @apply border-b-2 border-neutral-800  px-3 py-4 text-neutral-300 hover:text-white ease-in-out duration-300 cursor-pointer;
+}
+
+.u-top-nav .active {
+    @apply  border-primary text-white; 
+}
+
+.lnav .active {
+    @apply  border-l-2 border-primary font-semibold text-primary ; 
+}
+
+.lnav li{
+    @apply text-xs py-1 my-2 px-4 hover:bg-neutral-700 cursor-pointer;
+}
+
+.btn-primary{
+    @apply  px-6 py-2 text-white rounded-full;
+    background: linear-gradient(97.16deg, #74C69D 24.66%, #B7E4C7 107.95%);
+}
+
+.btn-secondary {
+    @apply bg-secondary text-brown px-8 py-2 rounded-full shadow-md hover:bg-gray-700 hover:text-white ease-in-out duration-300;
+}

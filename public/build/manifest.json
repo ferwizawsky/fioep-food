@@ -1,0 +1,109 @@
+{
+  "resources/js/app.js": {
+    "file": "assets/app.77c39b12.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/views/landing/Beranda.vue",
+      "resources/js/views/login.vue",
+      "resources/js/views/admin/base.vue",
+      "resources/js/views/admin/exam.vue",
+      "resources/js/views/admin/invoice.vue",
+      "resources/js/views/admin/invoice_id.vue",
+      "resources/js/views/admin/product.vue",
+      "resources/js/views/admin/user.vue"
+    ],
+    "css": [
+      "assets/app.88a0eb55.css"
+    ]
+  },
+  "resources/js/views/landing/Beranda.vue": {
+    "file": "assets/Beranda.637cf69c.js",
+    "src": "resources/js/views/landing/Beranda.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/views/login.vue": {
+    "file": "assets/login.ffe34e80.js",
+    "src": "resources/js/views/login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/views/admin/base.vue": {
+    "file": "assets/base.fa380add.js",
+    "src": "resources/js/views/admin/base.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/base.dc449077.css"
+    ]
+  },
+  "resources/js/views/admin/exam.vue": {
+    "file": "assets/exam.be3f5fcb.js",
+    "src": "resources/js/views/admin/exam.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/views/admin/invoice.vue": {
+    "file": "assets/invoice.6bfaac32.js",
+    "src": "resources/js/views/admin/invoice.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_menu.ca9dd2f3.js"
+    ]
+  },
+  "_menu.ca9dd2f3.js": {
+    "file": "assets/menu.ca9dd2f3.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/views/admin/invoice_id.vue": {
+    "file": "assets/invoice_id.ddb076f9.js",
+    "src": "resources/js/views/admin/invoice_id.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/views/admin/product.vue": {
+    "file": "assets/product.c661304d.js",
+    "src": "resources/js/views/admin/product.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_menu.ca9dd2f3.js"
+    ]
+  },
+  "resources/js/views/admin/user.vue": {
+    "file": "assets/user.9326ab13.js",
+    "src": "resources/js/views/admin/user.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_menu.ca9dd2f3.js"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app.aad8120b.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/views/admin/base.css": {
+    "file": "assets/base.dc449077.css",
+    "src": "resources/js/views/admin/base.css"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app.88a0eb55.css",
+    "src": "resources/js/app.css"
+  }
+}

@@ -1,0 +1,22 @@
+
+.form-input {
+    @apply pb-2;
+}
+.form-input span{
+    @apply text-xs text-primary font-semibold;
+}
+
+.form-input input{
+    @apply bg-white rounded-lg px-5 py-2 w-full border-gray-200 border focus:outline-none focus:ring-1 focus:ring-primary;
+}
+.btn {
+    @apply bg-primary rounded-lg px-10 py-2 text-white cursor-pointer hover:bg-white hover:text-primary ease-in-out duration-300 border border-primary;
+}
+
+.btn1 {
+    @apply bg-primary rounded-lg px-5 py-1.5 text-white cursor-pointer hover:bg-transparent hover:text-primary ease-in-out duration-300 border border-primary;
+}
+
+.txt {
+    @apply text-primary text-xs hover:text-neutral-700;
+}
